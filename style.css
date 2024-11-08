@@ -54,3 +54,39 @@ a:hover{
 .logo:hover{
     cursor: default;
 }
+
+/*Menu*/
+#hamburger_nav{
+    display: none;
+}
+.hamburger_menu{
+    position: relative;
+    display: inline-block;
+}
+.hamburger_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30px; /* Adjusted to a smaller height */
+    width: 30px;
+    cursor: pointer;
+}
+
+.hamburger_icon span {
+    display: block;
+    height: 3px; /* Height of each line */
+    width: 100%;
+    background-color: black; /* Color of the lines */
+    border-radius: 5px; /* Optional: adds a rounded look */
+    transition: all 0.3 ease-in-out;
+}
+.menu-links{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+}
