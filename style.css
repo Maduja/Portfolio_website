@@ -131,7 +131,7 @@ a:hover{
 section{
     padding-top: 4vh;
     height: 96vh;
-    margin: 0 10rem;
+    margin: -20px 10rem; /* Add negative value for top margin */
     box-sizing: border-box;
     min-height: fit-content;
 }
@@ -150,7 +150,7 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-    margin-top: auto 0;
+    margin: 60px auto;
 }
 .section-text{
     align-self: center;
@@ -180,4 +180,8 @@ section{
 .icon{
     cursor: pointer;
     height: 2rem;
+}
+
+.btn-container{
+    padding-top: 10px;
 }
