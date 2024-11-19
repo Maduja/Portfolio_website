@@ -148,8 +148,8 @@ section{
 }
 .section__pic-container{
     display: flex;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
     margin: 60px auto;
 }
 .section-text{
@@ -161,14 +161,17 @@ section{
 }
 .section-text-p1{
     text-align: center;
+    margin-bottom: 5px;
 }
-.section-text-p1{
+.section-text-p2{
     font-size: 1.75rem;
     margin-bottom: 1rem;
+    margin-top: 10px;
 }
 .title{
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 10px;
 }
 #socials-container{
     display: flex;
